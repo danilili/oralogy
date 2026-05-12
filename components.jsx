@@ -37,7 +37,7 @@ window.SiteHeader = function ({ current = "home" }) {
       <div className="container site-header__inner">
         <window.OralogyWord />
         <nav className="nav">
-          <ul className="nav__links" style={{ display: "flex", gap: "clamp(1rem, 0.5rem + 1.5vw, 2.2rem)" }}>
+          <ul className="nav__links">
             <li><a href="index.html#enfoque" aria-current={current === "home" ? "page" : undefined}>Enfoque</a></li>
             <li><a href="index.html#servicios">Servicios</a></li>
             <li><a href="acerca-de.html" aria-current={current === "about" ? "page" : undefined}>Acerca de</a></li>
